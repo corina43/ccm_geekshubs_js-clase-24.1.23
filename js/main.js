@@ -6,8 +6,8 @@ comprobar que funciona.*/
  
  
  
- /*console.log("hola mundo")
- let num1 = parseInt(prompt("Introduce el primer numero"))
+ //console.log("hola mundo")
+/* let num1 = parseInt(prompt("Introduce el primer numero"))
  let num2 = parseInt(prompt("Introduce el segundo numero numero"))
 if(num1 < num2){
      console.log(num2, "es mayor que" ,num1);
@@ -54,16 +54,166 @@ console.log("no es divisible por 2")
 decimales) y calcule el precio final con IVA. El IVA sera una constante que sera
 del 21%*/
 
+
+/*let = ("precio")
+precio = parseInt(prompt("Introduce el  precio"))
 const IVA = 0.21
-let = precio
-precio = parseInt (prompt("Introduce el  precio"))
- 
- precioFinal = precio + ( precio*IVA)
- console.log(precioFinal)
+precioFinal = precio + ( precio*IVA )
+ console.log(precioFinal)*/
 
 /*7. Muestra los números del 1 al 100 (ambos incluidos). Usa un bucle while.*/
-/*let num = 1
-while (num <= 100){
-console.log(num );num ++
+/*let i = 1
+while (i <= 100){
+console.log(i );i ++
 }*/
- 
+ /*8. Haz el mismo ejercicio anterior con un bucle for.*/
+ /*for(let i=1; i <=100; i++) {
+    console.log(i)
+ }*/
+ /*9. Muestra los números del 1 al 100 (ambos incluidos) divisibles entre 2 y 3. Utiliza
+el bucle que desees.*/
+  /* 
+
+
+   
+   }*/
+   /*let i = 1
+   i =  i <= 100 ; i%2 == 0 || i%3 == 0 ;i++
+   console.log(i)*/
+  /* Pida un número por prompt, acto seguido irá restando ese número hasta llegar a 0 (usando un bucle), cada uno de los números que devuelva la resta en el bucle, hay que decir por console.log si ese número es par.*/
+
+ /* let numero = parseInt(prompt("Dame un número"))
+
+  for ( let i = num; i >= 0; i-- ){
+    if(i % 2 === 0)
+    console.log(i );*/
+    
+    /*ahora hará una suma de todos los pares y lo mostrará mediante console.log una vez haya salido del bucle, además de ello, para sufrimiento del alumnado, no sólo nos dirá si un número es par, también nos dirá si es impar, en vez de un if else , usareis una ternaria.*/
+
+  
+   /* let num = parseInt(prompt("Dame un número"))
+    let resultado = 0
+    while (num > 0){
+    if (  num %2 === 0  ){
+    console.log("es par", num);
+    resultado += num;
+
+    }else{
+        console.log("es impar", num); 
+    }
+
+}
+console.log(resultado)*/
+/*let number = parseInt(prompt("Introduce un número:"));
+let totalParNumbers = 0;
+while (number > 0) {
+    number%2 != 0 ? (
+        console.log(number + " es un número impar")
+    ) : (
+        console.log(number + " es un número par"),
+        totalParNumbers += number
+    );
+    number--;
+}
+console.log ("La suma total de los números páres es: " + totalParNumbers)*/
+/*let number = parseInt(prompt("Introduce un número:"));
+let totalParNumbers = 0;
+while (number > 0) {
+    number%2 != 0 ? (
+        console.log(number + " es un número impar")
+    ) : (
+        console.log(number + " es un número par"),
+        totalParNumbers += number
+    );
+    number--;
+}
+console.log ("La suma total de los números páres es: " + totalParNumbers)*/
+//funcciones clasica 
+
+
+/*function Sumar(num1, num2){
+
+    let resultado = num1 +num2;
+    console.log(resultado);
+        return resultado
+       
+    };
+    let resultado = Sumar(2,8)*/
+    /*function Sumar(num1, num2){
+
+        let resultado = num1 -num2;
+        console.log(resultado);
+            return resultado
+           
+        };
+        let resultado = Sumar(2,8)*/
+
+       /* funccion flecha
+       
+       const Sumar = (num1,num2) => {
+            let resultado = num1 + num2;
+            console.log(resultado);
+            return resultado = num1 + num2;
+
+        }
+        let resultado = Sumar(3,7)*/
+
+  /*let num1 = parseInt(prompt("Introduce el primer numero"))
+  let num2 = parseInt(prompt("Introduce el segundo numero numero"))
+ const dividir=(num1, num2) =>{
+
+    let resultado = num1 /num2;
+    console.log(resultado);
+        return resultado
+       
+    };
+    let resultado = dividir(num1,num2)*/
+   //debugger;
+/*let alumnos = ["Alvaro","Alex","Paula","Fernando","Felipe"]
+console.log(alumnos[2])
+for ( let i = 0; i < alumnos.length ; i++){
+    console.log(alumnos[i])
+};
+let hobbies = ["Marcos",19,"Gimnasio","Tenis",1.83,["1NLY","imagine dragons","lyl"]]
+
+let nombre = prompt("Dame tu nombre")
+let nombres = []
+nombre ,push(nombre)*/
+
+/*let nombre;
+let nombres = [];
+
+for ( let i = 0; i < 10 ; i++){
+    nombre = prompt("Dame 10 nombres")
+    nombres.push(nombre)
+};
+console.log(nombres)*/
+/*
+
+let comidas = ["paella","cocido","queso","pizza"]
+let despensa=bebidas.concat(comidas)
+console.log(despensa)*/
+/*let deportes = ["tenis","baloncesto","petanca","zumo"]
+console.log(resultado)
+ deportes.join("* *")*/
+ /*let DNI = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+ let numero = parseINT(prompt("Introduce tu número de DNI (sin la letra)"));
+let letra = prompt("Introduce la letra de tu DNI (en mayúsculas)");
+
+let operacion = num % 23;
+let resultado = ( letra=== DNI[operacion])
+           "El dni es coreccto"
+           "El dni no es coreccto"
+           console.log(resultado)
+*/
+
+let edad = parseInt(prompt("Introduce tu edad"))
+let pais = parseInt(prompt("Introduce tu pais"))
+if(edad >=21){
+    console.log("puedes beber cerveza")
+}else if((edad < 18)&&(pais==="Europa")){
+    console.log(" no puedes beber cerveza")
+}else if((edad < 21)&&(pais==="Estados unidos")){
+    console.log(" no puedes beber cerveza")
+}
+
